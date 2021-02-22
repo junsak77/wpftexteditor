@@ -35,5 +35,11 @@ namespace TextEditor
             _main.editArea.Text = _main.editArea.Text.Replace(before, after);
             
         }
+
+        private void ExecSearch(object sender, RoutedEventArgs e)
+        {
+            string before = this.before.Text;
+            string after = this.after.Text;
+        }
     }
 }

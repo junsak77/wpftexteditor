@@ -7,14 +7,18 @@
         mc:Ignorable="d"
         Title="文字列置換" Height="120" Width="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0">
-            <TextBox Name="before" Height="40"/>
-            <TextBox Name="after" Height="40"/>
-        </StackPanel>
-        <Button FontSize="30"  Content="置換" Grid.Column="1" Click="ExecReplace"/>
+        
+        <TextBox FontSize="18" Name="before" Grid.Row="0" Grid.Column="0" Height="40"/>
+        <TextBox FontSize="18" Name="after" Grid.Row="1" Grid.Column="0" Height="40"/>
+        <Button FontSize="30"  Content="検索" Grid.Row="0"  Grid.Column="1" Click="ExecSearch"/>
+        <Button FontSize="30"  Content="置換" Grid.Row="1"  Grid.Column="1" Click="ExecReplace"/>
     </Grid>
 </Window>
