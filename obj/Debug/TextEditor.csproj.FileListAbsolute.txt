@@ -1,0 +1,17 @@
+C:\Users\佐久間 潤\source\repos\TextEditor\bin\Debug\TextEditor.exe.config
+C:\Users\佐久間 潤\source\repos\TextEditor\bin\Debug\TextEditor.exe
+C:\Users\佐久間 潤\source\repos\TextEditor\bin\Debug\TextEditor.pdb
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.csprojAssemblyReference.cache
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\MainWindow.g.cs
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\App.g.cs
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor_MarkupCompile.cache
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor_MarkupCompile.lref
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\MainWindow.baml
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.g.resources
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.exe
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\TextEditor.pdb
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\Replace.g.cs
+C:\Users\佐久間 潤\source\repos\TextEditor\obj\Debug\Replace.baml

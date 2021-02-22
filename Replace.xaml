@@ -1,0 +1,20 @@
+﻿<Window x:Class="TextEditor.Replace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="文字列置換" Height="120" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBox Name="before" Height="40"/>
+            <TextBox Name="after" Height="40"/>
+        </StackPanel>
+        <Button FontSize="30"  Content="置換" Grid.Column="1" Click="ExecReplace"/>
+    </Grid>
+</Window>

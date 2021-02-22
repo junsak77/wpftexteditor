@@ -1,0 +1,27 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="notepad" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="メニュー">
+                <MenuItem Header="新規" Click="NewFile"/>
+                <MenuItem Header="開く" Click="Open"/>
+                <MenuItem Header="名前を付けて保存" Click="SaveFileAs"/>
+                <MenuItem Header="保存" Click="SaveFile"/>
+            </MenuItem>
+            <MenuItem Header="編集">
+                <MenuItem Header="置換" Click="Replace"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="editArea" Grid.Row="1" AcceptsReturn="True"/>
+    </Grid>
+</Window>
